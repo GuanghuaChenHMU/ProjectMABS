@@ -1,0 +1,81 @@
+XGBoost Results:
+  Test Set Metrics:
+    MSE: 0.000102
+    RMSE: 0.010094
+    MAE: 0.007022
+    MAPE: 2.395837
+    SMAPE: 2.381334
+    R2 (macro): 0.954457
+    R2 per target:
+      - Biocompatibility: 0.953799
+      - Osteogenic: 0.933640
+      - Angiogenic: 0.975933
+    MAE per target:
+      - Biocompatibility: 0.006842
+      - Osteogenic: 0.007061
+      - Angiogenic: 0.007163
+    Max Errors: [0.043174762435844116, 0.09716084502891387, 0.08924492067727863]
+  Cross-Validation Results (5-fold):
+    Mean MSE: 0.000132 ± 0.000025
+    Mean RMSE: 0.011420 ± 0.001075
+    Mean MAE: 0.007415 ± 0.000325
+    Mean R2: 0.944445 ± 0.010345
+    95% CI for MSE: [0.000110, 0.000153]
+    95% CI for R2: [0.935377, 0.953513]
+    Fold MSE values: ['0.000136', '0.000170', '0.000106', '0.000142', '0.000103']
+    Fold R2 values: ['0.941443', '0.932174', '0.955824', '0.935472', '0.957312']
+
+RandomForest Results:
+  Test Set Metrics:
+    MSE: 0.000184
+    RMSE: 0.013546
+    MAE: 0.010227
+    MAPE: 3.486644
+    SMAPE: 3.451591
+    R2 (macro): 0.914666
+    R2 per target:
+      - Biocompatibility: 0.900764
+      - Osteogenic: 0.880599
+      - Angiogenic: 0.962634
+    MAE per target:
+      - Biocompatibility: 0.010283
+      - Osteogenic: 0.010705
+      - Angiogenic: 0.009693
+    Max Errors: [0.05152481182867036, 0.08655752721392301, 0.0877035473339034]
+  Cross-Validation Results (5-fold):
+    Mean MSE: 0.000198 ± 0.000031
+    Mean RMSE: 0.014020 ± 0.001110
+    Mean MAE: 0.010066 ± 0.000443
+    Mean R2: 0.917454 ± 0.010562
+    95% CI for MSE: [0.000171, 0.000225]
+    95% CI for R2: [0.908195, 0.926712]
+    Fold MSE values: ['0.000218', '0.000239', '0.000160', '0.000208', '0.000164']
+    Fold R2 values: ['0.911960', '0.906701', '0.929579', '0.908188', '0.930839']
+
+MLP Results:
+  Test Set Metrics:
+    MSE: 0.000015
+    RMSE: 0.003917
+    MAE: 0.002754
+    MAPE: 0.978021
+    SMAPE: 0.973115
+    R2 (macro): 0.993261
+    R2 per target:
+      - Biocompatibility: 0.991647
+      - Osteogenic: 0.991877
+      - Angiogenic: 0.996259
+    MAE per target:
+      - Biocompatibility: 0.002695
+      - Osteogenic: 0.002549
+      - Angiogenic: 0.003017
+    Max Errors: [0.017155575017944957, 0.016153257839259916, 0.0303399136000142]
+  Cross-Validation Results (5-fold):
+    Mean MSE: 0.000022 ± 0.000009
+    Mean RMSE: 0.004565 ± 0.000909
+    Mean MAE: 0.002830 ± 0.000402
+    Mean R2: 0.991632 ± 0.003138
+    95% CI for MSE: [0.000014, 0.000029]
+    95% CI for R2: [0.988881, 0.994383]
+    Fold MSE values: ['0.000030', '0.000034', '0.000014', '0.000013', '0.000018']
+    Fold R2 values: ['0.989533', '0.986496', '0.994378', '0.994532', '0.993220']
+
