@@ -1,4 +1,4 @@
-# ProjectLXJ-rev: Constrained Multi-Task Neural Network for Biomedical Material Property Prediction
+# Constrained Multi-Task Neural Network for Biomedical Material Property Prediction
 
 ## Abstract
 
