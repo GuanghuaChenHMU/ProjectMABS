@@ -1,0 +1,185 @@
+======================================================================
+          Data Imputation Diagnosis Report
+======================================================================
+
+1. Raw Data Statistics
+--------------------------------------------------
+   Samples: 2564
+   Features: 23
+   Total missing values: 2328
+   Missing rate: 3.95%
+
+2. Missing Values by Column
+--------------------------------------------------
+   ars            : 388 missing values (15.13%)
+   tlength        : 388 missing values (15.13%)
+   tvolume        : 388 missing values (15.13%)
+   tnodes         : 388 missing values (15.13%)
+   scr            : 388 missing values (15.13%)
+   uarea          : 388 missing values (15.13%)
+
+3. Statistical Comparison After Imputation
+--------------------------------------------------
+
+   Feature: BSG
+           Original | Random    | MICE
+   Mean:      11.6634 |    11.6634 |    11.6634
+   Std:        6.2364 |     6.2364 |     6.2364
+   Min:        5.0000 |     5.0000 |     5.0000
+   Max:       20.0000 |    20.0000 |    20.0000
+
+   Feature: AF
+           Original | Random    | MICE
+   Mean:       0.0001 |     0.0001 |     0.0001
+   Std:        0.0000 |     0.0000 |     0.0000
+   Min:        0.0000 |     0.0000 |     0.0000
+   Max:        0.0002 |     0.0002 |     0.0002
+
+   Feature: Ani
+           Original | Random    | MICE
+   Mean:       0.5631 |     0.5631 |     0.5631
+   Std:        0.2125 |     0.2125 |     0.2125
+   Min:        0.0347 |     0.0347 |     0.0347
+   Max:        0.9884 |     0.9884 |     0.9884
+
+   Feature: Ecc
+           Original | Random    | MICE
+   Mean:       0.7341 |     0.7341 |     0.7341
+   Std:        0.1555 |     0.1555 |     0.1555
+   Min:        0.1864 |     0.1864 |     0.1864
+   Max:        0.9942 |     0.9942 |     0.9942
+
+   Feature: EqD
+           Original | Random    | MICE
+   Mean:       5.7277 |     5.7277 |     5.7277
+   Std:        3.0052 |     3.0052 |     3.0052
+   Min:        1.9544 |     1.9544 |     1.9544
+   Max:       19.8992 |    19.8992 |    19.8992
+
+   Feature: prolif1
+           Original | Random    | MICE
+   Mean:       0.6672 |     0.6672 |     0.6672
+   Std:        0.4423 |     0.4423 |     0.4423
+   Min:        0.0192 |     0.0192 |     0.0192
+   Max:        2.8130 |     2.8130 |     2.8130
+
+   Feature: prolif2
+           Original | Random    | MICE
+   Mean:       0.7724 |     0.7724 |     0.7724
+   Std:        0.2831 |     0.2831 |     0.2831
+   Min:        0.1600 |     0.1600 |     0.1600
+   Max:        1.4683 |     1.4683 |     1.4683
+
+   Feature: alp
+           Original | Random    | MICE
+   Mean:       0.8018 |     0.8018 |     0.8018
+   Std:        0.4896 |     0.4896 |     0.4896
+   Min:        0.0216 |     0.0216 |     0.0216
+   Max:        9.0302 |     9.0302 |     9.0302
+
+   Feature: ars
+           Original | Random    | MICE
+   Mean:       0.6482 |     0.6477 |     0.6485
+   Std:        0.3209 |     0.3216 |     0.2957
+   Min:        0.0391 |     0.0391 |     0.0391
+   Max:        1.4567 |     1.4567 |     1.4567
+
+   Feature: vAF
+           Original | Random    | MICE
+   Mean:       0.8605 |     0.8605 |     0.8605
+   Std:        0.4538 |     0.4538 |     0.4538
+   Min:        0.0248 |     0.0248 |     0.0248
+   Max:        2.2893 |     2.2893 |     2.2893
+
+   Feature: vAni
+           Original | Random    | MICE
+   Mean:       0.4089 |     0.4089 |     0.4089
+   Std:        0.1505 |     0.1505 |     0.1505
+   Min:        0.0077 |     0.0077 |     0.0077
+   Max:        0.7380 |     0.7380 |     0.7380
+
+   Feature: vEcc
+           Original | Random    | MICE
+   Mean:       0.3920 |     0.3920 |     0.3920
+   Std:        0.1362 |     0.1362 |     0.1362
+   Min:        0.0130 |     0.0130 |     0.0130
+   Max:        0.6811 |     0.6811 |     0.6811
+
+   Feature: vEqD
+           Original | Random    | MICE
+   Mean:       0.7833 |     0.7833 |     0.7833
+   Std:        0.3174 |     0.3174 |     0.3174
+   Min:        0.0027 |     0.0027 |     0.0027
+   Max:        2.7245 |     2.7245 |     2.7245
+
+   Feature: tlength
+           Original | Random    | MICE
+   Mean:       1.1358 |     1.1302 |     1.1334
+   Std:        0.5981 |     0.5954 |     0.5516
+   Min:        0.0087 |     0.0087 |     0.0087
+   Max:        7.4802 |     7.4802 |     7.4802
+
+   Feature: tvolume
+           Original | Random    | MICE
+   Mean:       1.0482 |     1.0471 |     1.0427
+   Std:        0.6536 |     0.6418 |     0.6048
+   Min:        0.0112 |     0.0112 |     0.0112
+   Max:        6.3695 |     6.3695 |     6.3695
+
+   Feature: tnodes
+           Original | Random    | MICE
+   Mean:       1.4402 |     1.4336 |     1.4433
+   Std:        0.7855 |     0.7771 |     0.7281
+   Min:        0.0508 |     0.0508 |     0.0508
+   Max:        7.1725 |     7.1725 |     7.1725
+
+   Feature: scr
+           Original | Random    | MICE
+   Mean:       0.7215 |     0.7235 |     0.7206
+   Std:        0.4343 |     0.4354 |     0.4008
+   Min:        0.0686 |     0.0686 |     0.0686
+   Max:        1.8768 |     1.8768 |     1.8768
+
+   Feature: ulength
+           Original | Random    | MICE
+   Mean:       0.7357 |     0.7357 |     0.7357
+   Std:        0.5514 |     0.5514 |     0.5514
+   Min:        0.0199 |     0.0199 |     0.0199
+   Max:        5.9974 |     5.9974 |     5.9974
+
+   Feature: uarea
+           Original | Random    | MICE
+   Mean:       2.2572 |     2.2444 |     2.2747
+   Std:        1.2862 |     1.2660 |     1.2055
+   Min:        0.0010 |     0.0010 |     0.0010
+   Max:       14.1691 |    14.1691 |    14.1691
+
+   Feature: uvolume
+           Original | Random    | MICE
+   Mean:       2.1978 |     2.1978 |     2.1978
+   Std:        1.2124 |     1.2124 |     1.2124
+   Min:        0.0040 |     0.0040 |     0.0040
+   Max:       12.8624 |    12.8624 |    12.8624
+
+   Feature: vlength
+           Original | Random    | MICE
+   Mean:       0.9114 |     0.9114 |     0.9114
+   Std:        0.4727 |     0.4727 |     0.4727
+   Min:        0.0074 |     0.0074 |     0.0074
+   Max:        3.2830 |     3.2830 |     3.2830
+
+   Feature: varea
+           Original | Random    | MICE
+   Mean:       1.8727 |     1.8727 |     1.8727
+   Std:        0.8466 |     0.8466 |     0.8466
+   Min:        0.0062 |     0.0062 |     0.0062
+   Max:        7.8154 |     7.8154 |     7.8154
+
+   Feature: vvolume
+           Original | Random    | MICE
+   Mean:       2.0157 |     2.0157 |     2.0157
+   Std:        1.1407 |     1.1407 |     1.1407
+   Min:        0.0019 |     0.0019 |     0.0019
+   Max:       11.2134 |    11.2134 |    11.2134
+
+======================================================================
