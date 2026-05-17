@@ -1,0 +1,20 @@
+{
+  "dataset": "val",
+  "n_samples": 385,
+  "n_features": 23,
+  "has_nan": false,
+  "has_inf": false,
+  "negative_ratios": {},
+  "outlier_counts": {
+    "7": 1,
+    "13": 2,
+    "14": 4,
+    "15": 7,
+    "17": 2,
+    "18": 4,
+    "19": 5,
+    "20": 2,
+    "21": 1,
+    "22": 3
+  }
+}

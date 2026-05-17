@@ -1,0 +1,174 @@
+{
+    "module": "1revised_strict_constrained_model",
+    "description": "Statistical significance report for forward prediction model",
+    "timestamp": "2026-05-17T19:15:45.620636",
+    "test_set_statistics": {
+        "sample_size": 385,
+        "output_dimensions": 3
+    },
+    "cross_validation_statistics": {
+        "rmse": {
+            "metric": "RMSE",
+            "mean": 0.005134962693607281,
+            "std": 0.0011284760478225573,
+            "n_folds": 5,
+            "confidence_interval": {
+                "lower_bound": 0.0037337746121907395,
+                "upper_bound": 0.006536150775023822,
+                "confidence_level": 0.95
+            },
+            "t_test": {
+                "t_statistic": 10.174895308577044,
+                "p_value": 0.0005254970729948132,
+                "df": 4,
+                "sample_mean": 0.005134962693607281,
+                "hypothesized_mean": 0.0
+            }
+        },
+        "r2": {
+            "metric": "R2",
+            "mean": 0.9898648500442505,
+            "std": 0.0029989792361524827,
+            "n_folds": 5,
+            "confidence_interval": {
+                "lower_bound": 0.9861411254953594,
+                "upper_bound": 0.9935885745931416,
+                "confidence_level": 0.95
+            },
+            "t_test": {
+                "t_statistic": 738.0528236254983,
+                "p_value": 2.02206983679682e-11,
+                "df": 4,
+                "sample_mean": 0.9898648500442505,
+                "hypothesized_mean": 0.0
+            }
+        },
+        "mse": {
+            "metric": "MSE",
+            "mean": 2.7386608417145907e-05,
+            "std": 1.2825149247383539e-05,
+            "n_folds": 5,
+            "confidence_interval": {
+                "lower_bound": 1.1462082325079635e-05,
+                "upper_bound": 4.331113450921218e-05,
+                "confidence_level": 0.95
+            },
+            "t_test": {
+                "t_statistic": 4.774862024034489,
+                "p_value": 0.008808623226228635,
+                "df": 4,
+                "sample_mean": 2.7386608417145907e-05,
+                "hypothesized_mean": 0.0
+            }
+        },
+        "mean_metrics": {
+            "rmse": 0.005134962693607281,
+            "r2": 0.9898648500442505,
+            "mse": 2.7386608417145907e-05,
+            "std_rmse": 0.0010093396615646168,
+            "std_r2": 0.0026823685740589385,
+            "std_mse": 1.1471162215491943e-05
+        }
+    },
+    "metrics_statistical_significance": {
+        "biocompatibility": {
+            "r2": {
+                "value": 0.9902740716934204,
+                "p_value": 0.0,
+                "f_statistic": 38996.2734375,
+                "df_regression": 1,
+                "df_residual": 383
+            },
+            "mae": {
+                "value": 0.0024381803814321756,
+                "confidence_interval": {
+                    "mean": 0.0024381803814321756,
+                    "lower_bound": 0.0020983180149094028,
+                    "upper_bound": 0.0027780427479549485,
+                    "confidence_level": 0.95
+                }
+            },
+            "rmse": {
+                "value": 0.004173525143414736,
+                "confidence_interval": {
+                    "mean": 0.004173525283411265,
+                    "lower_bound": 0.003024422423709364,
+                    "upper_bound": 0.005068480599302924,
+                    "confidence_level": 0.95
+                }
+            },
+            "pearson_correlation": {
+                "r": 0.9961808919906616,
+                "p_value": 0.0,
+                "sample_size": 385
+            },
+            "sample_size": 385
+        },
+        "osteogenic": {
+            "r2": {
+                "value": 0.9927508234977722,
+                "p_value": 0.0,
+                "f_statistic": 52450.5859375,
+                "df_regression": 1,
+                "df_residual": 383
+            },
+            "mae": {
+                "value": 0.002197716850787401,
+                "confidence_interval": {
+                    "mean": 0.002197716850787401,
+                    "lower_bound": 0.0019325766484164484,
+                    "upper_bound": 0.002462857053158354,
+                    "confidence_level": 0.95
+                }
+            },
+            "rmse": {
+                "value": 0.003437003819271922,
+                "confidence_interval": {
+                    "mean": 0.0034370037345550298,
+                    "lower_bound": 0.002927817279264933,
+                    "upper_bound": 0.0038799323862572827,
+                    "confidence_level": 0.95
+                }
+            },
+            "pearson_correlation": {
+                "r": 0.9966931939125061,
+                "p_value": 0.0,
+                "sample_size": 385
+            },
+            "sample_size": 385
+        },
+        "angiogenic": {
+            "r2": {
+                "value": 0.9957564473152161,
+                "p_value": 0.0,
+                "f_statistic": 89871.5625,
+                "df_regression": 1,
+                "df_residual": 383
+            },
+            "mae": {
+                "value": 0.00245349551551044,
+                "confidence_interval": {
+                    "mean": 0.00245349551551044,
+                    "lower_bound": 0.0020751322894076423,
+                    "upper_bound": 0.0028318587416132374,
+                    "confidence_level": 0.95
+                }
+            },
+            "rmse": {
+                "value": 0.004498889669775963,
+                "confidence_interval": {
+                    "mean": 0.004498889828567395,
+                    "lower_bound": 0.0019910032694609933,
+                    "upper_bound": 0.006042840835250418,
+                    "confidence_level": 0.95
+                }
+            },
+            "pearson_correlation": {
+                "r": 0.9979742765426636,
+                "p_value": 0.0,
+                "sample_size": 385
+            },
+            "sample_size": 385
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "train",
+  "n_samples": 1794,
+  "n_features": 23,
+  "has_nan": false,
+  "has_inf": false,
+  "negative_ratios": {},
+  "outlier_counts": {
+    "7": 1,
+    "12": 1,
+    "13": 6,
+    "14": 21,
+    "15": 30,
+    "17": 5,
+    "18": 8,
+    "19": 11,
+    "20": 6,
+    "21": 20,
+    "22": 16
+  }
+}
